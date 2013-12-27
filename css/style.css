@@ -151,7 +151,7 @@ h6.name {
   #sidebarLeft .paddedLight .tr-block .heart {
     background-position: -46px -272px; }
   #sidebarLeft .paddedLight .fi-block .heart {
-    background-position: -23px -295px; }
+    background-position: -23px -294px; }
   #sidebarLeft .paddedLight .mi-block .heart {
     background-position: -46px -294px; }
   #sidebarLeft .paddedLight .ic-block .heart {
@@ -750,7 +750,7 @@ code {
   width: 15px; }
 
 .fi-icon {
-  background-position: -21px -166px;
+  background-position: -21px -165px;
   background-size: 62px auto;
   height: 16px;
   width: 26px; }
@@ -926,7 +926,7 @@ code {
         .cat_it .cat_it_foot .dateils .date i, .cat_it .cat_it_foot .dateils .coments i, .cat_it .cat_it_foot .dateils .hearts_count i, .cat_it .cat_it_foot .cat-dateils .date i, .cat_it .cat_it_foot .cat-dateils .coments i, .cat_it .cat_it_foot .cat-dateils .hearts_count i {
           margin-right: 2px; }
     .cat_it .cat_it_foot .dateils {
-      width: 70%; }
+      width: 65%; }
       .cat_it .cat_it_foot .dateils .date, .cat_it .cat_it_foot .dateils .coments {
         width: 49.5%; }
     .cat_it .cat_it_foot .cat-dateils {
@@ -939,13 +939,13 @@ code {
         width: 17%; }
 
 .finCOl {
-  color: #2e476f; }
+  color: #29b183; }
 
 .salCol {
   color: #f15c24; }
 
 .eduCOl {
-  color: #29b183; }
+  color: #2e476f; }
 
 .Migcol {
   color: #0099cb; }
@@ -954,7 +954,7 @@ code {
   color: #ebaf03; }
 
 .iccol {
-  color: #6c2768; }
+  color: #9a4e96; }
 
 .infoBlock {
   padding: 15px 0 0 0; }
@@ -988,19 +988,19 @@ code {
   background-color: #f15c24; }
 
 .ed-page-cat .infoBlock, .ed-page-cat .topBar, .ed-page-cat .postsharing_block a, .ed-page-cat .post_PV_block .post_PV_block_nav a {
-  background-color: #29b183; }
+  background-color: #2e476f; }
 
 .tr-page-cat .infoBlock, .tr-page-cat .topBar, .tr-page-cat .postsharing_block a, .tr-page-cat .post_PV_block .post_PV_block_nav a {
   background-color: #ebaf03; }
 
 .fi-page-cat .infoBlock, .fi-page-cat .topBar, .fi-page-cat .postsharing_block a, .fi-page-cat .post_PV_block .post_PV_block_nav a {
-  background-color: #2e476f; }
+  background-color: #29b183; }
 
 .mi-page-cat .infoBlock, .mi-page-cat .topBar, .mi-page-cat .postsharing_block a, .mi-page-cat .post_PV_block .post_PV_block_nav a {
   background-color: #0099cb; }
 
 .ic-page-cat .infoBlock, .ic-page-cat .topBar, .ic-page-cat .postsharing_block a, .ic-page-cat .post_PV_block .post_PV_block_nav a {
-  background-color: #6c2768; }
+  background-color: #9a4e96; }
 
 .cat_SH {
   margin-top: -2px;
