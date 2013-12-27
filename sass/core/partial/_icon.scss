@@ -1,0 +1,129 @@
+.sa-icon, .ed-icon, .tr-icon, .fi-icon, .mi-icon,
+.ic-icon, .heart, .heart_grey, .heart_white, .clock-icon,
+.buble-icon, .greyarrow, .button_icon1, .fc_icon_white,
+.tw_icon_white, .mail_icon_white, .home_button{
+@include SpriteGeneral();
+    display: inline-block;
+    vertical-align: middle;
+}
+.sa-icon{
+    background-position: 0 -122px;
+    background-size: 55px auto;
+    height: 21px;
+    width: 17px;
+}
+.ed-icon{
+    background-position: -19px -122px;
+    background-size: 54px auto;
+    height: 17px;
+    width: 18px;
+}
+.tr-icon{
+    background-position: -39px -123px;
+    background-size: 54px auto;
+    height: 16px;
+    width: 15px;
+}
+.fi-icon{
+    background-position: -21px -166px;
+    background-size: 62px auto;
+    height: 16px;
+    width: 26px;
+}
+.mi-icon{
+    background-position: -43px -148px;
+    background-size: 56px auto;
+    height: 16px;
+    width: 13px;
+}
+.ic-icon{
+    background-position: -2px -144px;
+    background-size: 54px auto;
+    height: 16px;
+    width: 16px;
+
+}
+
+.heart{
+    background-position: 0 -250px;
+    background-size: 65px auto;
+    height: 18px;
+    width: 20px;
+}
+.heart_white{
+    background-position: 0 -250px;
+    background-size: 65px auto;
+    height: 18px;
+    width: 20px;
+    display: inline-block;
+}
+.heart_grey{
+    background-position: -46px -250px;
+    background-size: 65px auto;
+    height: 18px;
+    width: 20px;
+    display: inline-block;
+}
+
+.clock-icon{
+    background-size: 65px auto;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    background-position: 0 -73px;
+}
+.buble-icon{
+    background-position: -23px -73px;
+    background-size: 65px auto;
+    height: 18px;
+    width: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.greyarrow{
+    background-position: -21px -230px;
+    background-size: 60px auto;
+    height: 15px;
+    margin: 0 10px;
+    width: 21px;
+}
+
+.button_icon1{
+//    background-position: -50px -78px; for open
+    background-position: 0 -342px;
+    background-size: 70px auto;
+    height: 20px;
+    margin: -3px 2px 0 0;
+    width: 21px;
+}
+
+//social sharing icon block
+.fc_icon_white{
+    background-position: -19px -303px;
+    background-size: 62px auto;
+    height: 20px;
+    width: 14px;
+}
+.tw_icon_white{
+    background-position: -34px -309px;
+    background-size: 63px auto;
+    height: 20px;
+    width: 32px;
+}
+.mail_icon_white{
+    background-position: 0 -304px;
+    background-size: 57px auto;
+    height: 20px;
+    width: 29px;
+}
+
+
+
+
+//next sprite
+.shFa, .shTw, .shMail, .shLike{
+    @include spriteSoCI();
+    display: inline-block;
+    vertical-align: middle;
+}

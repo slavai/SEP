@@ -1,0 +1,63 @@
+
+.topBar {
+    position:relative;
+    height:44px;
+    width:100%;
+    z-index:1000;
+    word-wrap:break-word;
+    overflow:hidden;
+    background-color: $mainGrean;
+
+    .slideRight, .slideLeft, .home_button {
+        position:absolute;
+        top:50%;
+        margin-top: -12px;
+        width:24px;
+        height:24px;
+        font-size:5em;
+        line-height:0.84em;
+        color: #fff;
+        text-decoration:none;
+        text-align:center;
+    }
+    #leftBurger{
+        @include SpriteGeneral();
+        background-position:  0 0;
+        background-size: 66px auto;
+        left:13px;
+    }
+    #rightBurger{
+        @include SpriteGeneral();
+        background-position:  100% 0;
+        background-size: 66px auto;
+        right:13px;
+    }
+    .home_button{
+        @include SpriteGeneral();
+        background-position:  100% -353px;
+        background-size: 66px auto;
+        left:50px;
+    }
+    .logo{
+        @include SpriteGeneral();
+        background-position: 0 -23px;
+        background-size: 58px auto;
+        display: block;
+        height: 31px;
+        margin: 0 auto;
+        width: 59px;
+        margin: 6px auto 0;
+    }
+    .cat_header_name{
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        margin: 0 15%;
+        width: 70%;
+        line-height: 44px;
+        font-size: 16px;
+        color: #ffffff;
+        text-transform: capitalize;
+    }
+
+}

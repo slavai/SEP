@@ -1,0 +1,169 @@
+.sidebar_search_wrapper{
+    font-size: 0;
+    border-right: 1px solid #363636;
+    background-color: #ffffff;
+    input[type="submit"]{
+        @include SpriteGeneral();
+        background-position: 7px -77px;
+        background-size: 54px auto;
+        background-color: #ffffff;
+        display: inline-block;
+        border: none;
+        height: 44px;
+        width: 15%;
+        float: left;
+    }
+    .sidebar_search{
+        background-color: transparent!important;
+        font-size: 16px;
+        line-height: 16px;
+        padding: 12px 5px 13px 0px;
+        width: 80%;
+        min-height: 44px;
+        float: left;
+        margin-right: 5%;
+    }
+}
+
+.sidebarLeft, .sidebarRight {
+    ul {
+        float:left;
+        width:100%;
+
+        a {
+            float:left;
+            width:100%;
+            text-decoration:none;
+            color: $lightGrey;
+            font-weight: normal;
+            font-size: 17px;
+            &:hover, &.current {
+                color:#fff;
+                background:scale-lightness($darkGrey, 5%);
+            }
+        }
+    }
+
+    li {
+        float:left;
+        width:100%;
+        border-bottom: 1px solid #363636;
+        position:relative;
+        list-style: none;
+
+        .icon {
+            margin:0 0.4em 0 0;
+        }
+        .social {
+            margin:0 0.4em 0 0;
+        }
+    }
+    h6{
+        color: #00a15f;
+        font-size: 18px;
+        text-align: center;
+    }
+    .text_block{
+
+        p{
+            font-size: 11px;
+            padding: 16px 30px;
+            text-align: center;
+            color: #999999;
+            line-height: 14px;
+        }
+    }
+
+}
+.heartWrapp{
+    padding: 0px 0 28px;
+}
+
+.userImgAvatar{
+    width: 125px;
+    height: 125px;
+    border-radius: 70px;
+    -webkit-border-radius: 70px;
+    background-position: center center;
+    background-size: cover;
+    margin: 20px auto 30px;
+    border: 3px solid #ffffff;
+
+}
+
+h6.name{
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+#sidebarLeft{
+    .paddedLight{
+        padding: 0;
+        margin-bottom: 35px;
+        .sa-block .heart{background-position: 0px -272px}
+        .ed-block .heart{background-position: -23px -272px}
+        .tr-block .heart{background-position: -46px -272px}
+        .fi-block .heart{background-position: -23px -295px}
+        .mi-block .heart{background-position: -46px -294px}
+        .ic-block .heart{background-position: 0px -295px}
+        a{
+            padding:20px 0 20px 59px ;
+            position: relative;
+            width: 75%;
+            display: inline-block;
+            &.heart_wrapp{
+                padding: 20px 0;
+                text-align: center;
+                width: 25%;
+                border-left: 1px solid #363636;
+            }
+            .icons{
+                position: absolute;
+            }
+            .sa-icon{left: 15px;}
+            .ed-icon{left: 15px;top: 22px}
+            .tr-icon{left: 17px;top: 23px;}
+            .fi-icon{left: 11px;top: 25px;}
+            .mi-icon{left: 17px;top: 23px;}
+            .ic-icon{left: 16px;top: 24px;}
+        }
+        li.nonAf{
+            .sa-icon{background-position: 0 -163px}
+            .ed-icon{background-position: -19px -162px}
+            .tr-icon{background-position: -39px -163px}
+            .fi-icon{background-position: -21px -211px}
+            .mi-icon{background-position: -43px -190px}
+            .ic-icon{background-position: -2px -184px}
+
+            .heart{background-position: -46px -250px}
+        }
+
+    }
+}
+#sidebarRight{
+    color: $lightGrey;
+    .button_block{
+        margin-bottom: 35px;
+        border-top: 1px solid #363636;
+        a{
+            border-bottom: 1px solid #363636;
+        }
+    }
+    .fB{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+
+}
+@media only screen and (orientation:landscape){
+    /* portrait styles here */
+    #sidebarRight{
+        .fB{
+            position: static;
+            bottom: 0;
+            right: 0;
+        }
+    }
+}
+

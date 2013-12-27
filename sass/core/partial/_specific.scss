@@ -1,0 +1,13 @@
+.no-csstransforms3d{
+    .page.animatedSlide.slidLeft {
+        position: absolute!important;
+        right: -4em!important;
+        transform:none!important;
+        -webkit-transform:none!important;
+    }
+    .page.slidRight {
+        position: absolute!important;
+        left: 20em!important;
+        -webkit-transform:none!important;
+    }
+}

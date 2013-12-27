@@ -1,0 +1,127 @@
+//reset
+*{
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-size-adjust: inherit;
+    font-stretch: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    outline: none;
+}
+
+/* Compass */
+//@import "compass/reset";
+@import "compass/css3";
+@import "compass/utilities";
+@import "compass/css3/images";
+@import "compass/css3/box-sizing";
+
+/* Colours */
+$lightestGrey:#f7f7f7;
+$lightGrey:#eeeeee;
+$mediumGrey:#999;
+$darkGrey:#111111;
+
+$red:#ec6250;
+$darkGreen:#5a6e6c;
+$blue:#0099cb;
+$darkblue:#2e476f;
+$orange:#f15c24;
+$darkOrange:#702c07;
+
+
+
+
+
+$mainGrean:#00a15f;
+
+
+
+$finCOl:#2e476f;
+$salCol:#f15c24;
+$eduCOl:#29b183;
+$Migcol:#0099cb;
+$trcol:#ebaf03;
+$iccol:#6c2768;
+
+
+
+/* Responsive break points */
+$largestBreak:75em;/*1200px*/
+$largeBreak:62.5em;/*1000px*/
+$mediumLargeBreak:37.5em;/*600px*/
+$mediumBreak:33.125em;/*530px*/
+$smallMediumBreak:28.125em;/*450px*/
+$smallBreak:25em;/*400px*/
+$smallestBreak:20em;/*320px*/
+
+/* border-radius */
+
+$threePixels:0.1875em;
+$sixPixels:0.375em;
+
+//spriyte url
+@mixin SpriteGeneral{
+    background-image: url('../img/general_sprite.png');
+    background-repeat: no-repeat;
+}
+
+@mixin spriteSoCI{
+    background-image: url('../img/spriteSoCI.png');
+    background-repeat: no-repeat;
+}
+
+@mixin clearfix {
+    zoom:1;
+    &:before, &:after {
+        content: "\0020";
+        display: block;
+        height: 0;
+        overflow: hidden;
+    }
+    &:after {
+        clear: both;
+    }
+}
+.clearfix{
+    @include clearfix();
+}
+.page_load{
+    background:#00a15f;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    text-align: center;
+    padding: 15% 10%;
+    p{
+        color: #fff;
+        font-size: 32px;
+    }
+    .logo{
+        @include SpriteGeneral();
+        background-position: 0 -49px;
+        display: block;
+        height: 53px;
+        margin: 25px auto;
+        width: 112px;
+    }
+    .spiner_big{
+        background: url("../img/159.GIF") no-repeat center center;
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+        display: inline-block;
+    }
+}

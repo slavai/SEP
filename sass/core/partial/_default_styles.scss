@@ -1,0 +1,143 @@
+@import "mixims_and_variables";
+
+::selection {
+    background:$mainGrean;
+    color:#fff;
+}
+
+::-moz-selection {
+    background:$mainGrean;
+    color:#fff;
+}
+
+::-webkit-selection {
+    background:$mainGrean;
+    color:#fff;
+}
+
+
+body {
+    background: #ffffff;
+    font-family:"Roboto", Arial, "Helvetica Neue", Helvetica, sans-serif ;
+
+}
+
+h1 {
+	font-size:2em;
+	font-weight:300;
+	line-height:1.2em;
+	margin:0.5em 0;
+	color: $mainGrean;
+	text-shadow: 0 0.03em 0.0625em rgba(0,0,0,0.15);
+}
+
+h2 {
+	font-size:1.6em;
+	font-weight:300;
+	line-height:1.2em;
+	margin:0.4em 0;
+	color: $darkGrey;
+	text-shadow: 0 0.03em 0.0625em rgba(0,0,0,0.15);
+}
+
+h3 {
+	font-size:17px;
+	font-weight:300;
+	line-height:1.2em;
+	margin:0.3em 0;
+	text-shadow: 0 0.03em 0.0625em rgba(0,0,0,0.15);
+}
+
+h4 {
+	font-size:1.2em;
+	font-weight:300;
+	line-height:1.2em;
+	margin:0.3em 0;
+	color: $darkGrey;
+	text-shadow: 0 0.03em 0.0625em rgba(0,0,0,0.15);
+}
+
+p {
+	font-size:11px;
+	font-weight:200;
+	line-height:1.5em;
+	padding-bottom: 10px;
+}
+
+a {
+	color: inherit;
+}
+
+hr {
+	float: left;
+	width: 100%;
+	height: 2px;
+	margin: 3em 0;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	border-bottom: 2px dashed scale-lightness($mainGrean, 90%);
+}
+
+code {
+	display: block;
+	margin: 2em 0;
+	padding: 1em;
+	@include box-sizing(border-box);
+	font-family: courier new;
+	background: scale-lightness($lightGrey, 50%);
+	border-radius: 0.25em;
+}
+
+.icon {
+    font-style:normal;
+    font-size:1.5em;
+}
+.social {
+    font-family:Social;
+    font-style:normal;
+    font-size:1.5em;
+}
+.pacifico {
+    font-family: 'Pacifico';
+}
+
+
+.center {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+.fat {
+	width: 100%;
+	max-width: $largestBreak;
+	margin: 0 auto;
+}
+
+.thin {
+	width: 100%;
+	max-width: $largeBreak;
+	margin: 0 auto;
+}
+
+
+
+
+.topBar {
+	height:4em;
+	background-color:$mainGrean;
+	background: 00a15f;
+	
+	h1 {
+		font-family: 'Pacifico', Sans-Serif;
+		color:scale-lightness($mainGrean, 70%);
+		font-size:1.8em;
+		font-weight:300;
+		line-height:1.1em;
+		text-align:center;
+	}
+}
+
+
+

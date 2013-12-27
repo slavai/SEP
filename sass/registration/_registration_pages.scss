@@ -1,0 +1,126 @@
+.prefooter_content, .preform_content, .after_submit_content{
+    padding: 20px 0;
+    p{
+        color: #000000;
+        display: block;
+        font-size: 17px;
+        padding-bottom: 14px;
+        text-align: center;
+    }
+    h3{
+        font-size: 26px;
+        color: $mainGrean;
+        text-align: center;
+    }
+    h4{
+        text-align: center;
+        font-size: 20px;
+        color: $mainGrean;
+        font-weight: bold;
+    }
+}
+.after_submit_content{
+    margin-top: 0;
+    padding-bottom: 0;
+    p{padding-bottom: 0;margin-bottom: 25px}
+}
+.user_img{
+    padding: 0 0 30px 0 ;
+    text-align: center;
+}
+.user_avatar{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 125px;
+    height: 125px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    display: block;
+    margin:-5px auto 15px;
+
+}
+.steps{
+    text-align: center;
+    padding:20px 0 20px;
+    &.step-1 span:first-child, &.step-2 span:nth-child(2), &.step-3 span:nth-child(3), &.step-4 span:nth-child(4), &.step-5 span:nth-child(5), &.step-6 span:nth-child(6){
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        width: 0;
+        height: 0;
+        border-right: 6px solid #009B5C;
+        border-top: 6px solid transparent;
+        border-bottom: 6px solid transparent;
+        background: transparent;
+        margin: 0 2px;
+    }
+    span{
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        background: #009B5C;
+        vertical-align: middle;
+
+    }
+}
+.form_page{
+    padding:0 5%;
+    .button{
+        width: 100%;
+        margin: 10px 0  ;
+        font-weight: bold;
+    }
+    label{
+        display: block;
+        padding-bottom: 15px;
+        color: $mainGrean;
+        input{
+            border:1px solid #c2c2c2;
+            text-align: center;
+            width: 100%;
+            margin: 5px 0;
+            padding: 10px 15px;
+            position: static!important;
+        }
+        input:nth-child(2), input:nth-child(3){
+            border-top: none;
+            margin-top: -5px;
+        }
+    }
+}
+.green_page{
+    .page .scrollableArea{ background: $mainGrean;}
+    label{
+        display: block;
+        padding-bottom: 15px;
+        color: #ffffff;
+    }
+    p{
+        color: #ffffff;
+    }
+    .button{
+        background: #00874f;
+    }
+    .steps{
+        &.step-1 span:first-child, &.step-2 span:nth-child(2), &.step-3 span:nth-child(3), &.step-4 span:nth-child(4), &.step-5 span:nth-child(5), &.step-6 span:nth-child(6){
+            border-right-color: #ffffff ;
+        }
+        span{
+            background: #ffffff;
+        }
+    }
+    .prefooter_content, .preform_content, .after_submit_content{
+        h3, h4{
+            color: #ffffff!important;
+
+        }
+        .bold_text{
+            text-align: center;
+            display: block;
+            font-weight: bold;
+        }
+
+    }
+}
