@@ -1,0 +1,244 @@
+!!!
+%html.no-js
+  %head
+    %title MenuLoggedOut
+    %meta{charset: "UTF-8"}/
+    %meta{content: "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no", name: "viewport"}/
+    %meta{content: "yes", name: "apple-mobile-web-app-capable"}/
+    %meta{content: "black-translucent", name: "apple-mobile-web-app-status-bar-style"}/
+    %link{href: "css/style.css", rel: "stylesheet"}/
+    %script{src: "js/modernizr.js"}
+  %body.tr-page-cat
+    / body classes for page category
+    / Salud = .Sa-page-cat  $salCol:#f15c24;
+    / Educación = .ed-page-cat  $eduCOl:#29b183;
+    / Trabajo = .tr-page-cat  $trcol:#ebaf03;
+    / Finanzas = .fi-page-cat  $finCOl:#2e476f;
+    / Migración = .mi-page-cat  $Migcol:#0099cb;
+    / Noticias = .ic-page-cat $iccol:#6c2768;
+    .page_load
+      %p Welcome to SEP
+      .logo
+      .spiner_big
+    %aside#sidebarLeft.sidebarLeft
+      .scrollableArea
+        / Place whatever HTML you want in here
+        .sidebar_search_wrapper.clearfix
+          %form
+            %input.sidebar_search{type: "search"}/
+            %input{type: "submit", value: ""}/
+        %ul.paddedLight
+          / WARNING!!!
+          / attr  =  data-color-class its only FOR DEMO
+          / TODO: remove attr data-color-class before production
+          / WARNING!!!
+          %li.nonAf.sa-block
+            %a{"data-color-class" => "Sa-page-cat", href: "#"}
+              %span.icons.sa-icon>
+              Saludx
+            %a.heart_wrapp{href: "#"}
+              %i.heart
+          %li.ed-block
+            %a{"data-color-class" => "ed-page-cat", href: "#"}
+              %span.icons.ed-icon>
+              Educación
+            %a.heart_wrapp{href: "#"}
+              %i.heart
+          %li.tr-block
+            %a{"data-color-class" => "tr-page-cat", href: "#"}
+              %span.icons.tr-icon>
+              Trabajo
+            %a.heart_wrapp{href: "#"}
+              %i.heart
+          %li.nonAf.fi-block
+            %a{"data-color-class" => "fi-page-cat", href: "#"}
+              %span.icons.fi-icon>
+              Finanzas
+            %a.heart_wrapp{href: "#"}
+              %i.heart
+          %li.mi-block
+            %a{"data-color-class" => "mi-page-cat", href: "#"}
+              %span.icons.mi-icon>
+              Migración
+            %a.heart_wrapp{href: "#"}
+              %i.heart
+          %li.nonAf.ic-block
+            %a{"data-color-class" => "ic-page-cat", href: "#"}
+              %span.icons.ic-icon>
+              Noticias
+            %a.heart_wrapp{href: "#"}
+              %i.heart
+        .text_block
+          %h6
+            Cómo navegar
+          %p
+            Elige la categoría de tu interés en
+            el menú para ver noticias y contenidos
+            sólo de esta categoría.Si el corazón está relleno, esta categoría
+            está marcada como favorita.
+          .center.heartWrapp
+            %i.heart_grey
+            %i.greyarrow
+            %i.heart_white
+    %section#page.page
+      .page_optc{style: "display: none"}
+      %header.topBar
+        %a#leftBurger.slideRight{href: ""}
+        %a.home_button{href: ""}
+        %a#rightBurger.slideLeft{href: ""}
+        %span.cat_header_name Trabajo
+      .scrollableArea
+        / CONTENT
+        #content.cooasdf
+          .post_img_baner
+            %img{alt: "", src: "http://flickholdr.com/600/200"}/
+          %h2.post_title
+            El Gobierno Federal provee ayuda a pequeños negocios
+          .postsharing_block
+            %a.shFa{href: "#"}
+            %a.shTw{href: "#"}
+            %a.shMail{href: "#"}
+            %a.shLike{href: "#"}
+          .post_deteils
+            .date
+              %i.clock-icon>
+              06/21/2013
+            %a.coments{href: "#coments"}
+              %i.buble-icon>
+              12 comments
+          .post_body
+            %p
+              La Agencia Federal para el Desarrollo de la Pequeña Empresa (SBA, por su sigla en
+              inglés) es la agencia del Gobierno federal de los EE.UU que tiene como objetivo
+              ayudar a los pequeños empresarios a crecer y tener éxito. Para lograrlo ofrece
+              instrucción y asistencia técnica así como acceso a una variedad de programas de
+              financiamiento como préstamos y becas.
+            %p IMPORTANTE: La SBA no presta dinero.
+            %p La SBA solo garantiza los préstamos que hacen instituciones
+            .video_wrapper
+              %img{alt: "", src: "http://flickholdr.com/500/400", style: "max-width: 100%"}/
+            %p
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in lectus mollis,
+              vehicula metus sit amet, rutrum nulla. Curabitur
+              %a{href: "#"} this is a button in the text
+              at
+              quam placerat ornare dapibus nec mi. Pellentesque in sodales magna. Praesent et auctor augue.
+              Sed pulvinar nec neque at ultrices
+            %p
+              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              Ut sodales feugiat tortor, nec rhoncus massa vestibulum sit amet. Quisque eu nibh
+              condimentum,
+              blandit erat ut, consectetur metus. Cras nec condimentum felis.
+            %p
+              Proin interdum in quam quis tincidunt. Sed rutrum et massa eu tristique.
+              Nunc ultricies arcu vel neque luctus hendrerit. Quisque condimentum interdum risus,
+              nec porttitor sapien pulvinar id.
+          .post_PV_block
+            %h3.partial_title Artículos relacionados
+            .post_PV_block_nav
+              %a{href: "#"}
+                %img{alt: "", src: "http://flickholdr.com/400/300", style: "max-width: 100%"}/
+                %span Seguridad y Protección: Los Seguros de Autos
+              %a{href: "#"}
+                %span Cobertura mínima por estado
+                %img{alt: "", src: "http://flickholdr.com/400/300", style: "max-width: 100%"}/
+          #coments.coments
+            %h3.partial_title Comentarios
+            %ul.coment_list
+              %li
+                .coment_list_item
+                  .avatar{style: "background-image: url(\"CONTENT_IMG/homer-is-the-best-the-simpsons-17596403-500-313.jpg\") "}
+                  .coment_tile
+                    .coment_tile_head
+                      %span.name Raúl Aníbal
+                      %span.coment_die 5 min ago
+                      %a.responder_button{href: "#"} RESPONDER
+                    .coment_tile_body
+                      Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
+                %ul
+                  %li
+                    .coment_list_item
+                      .avatar{style: "background-image: url(\"CONTENT_IMG/homer-is-the-best-the-simpsons-17596403-500-313.jpg\") "}
+                      .coment_tile
+                        .coment_tile_head
+                          %span.name Raúl Aníbal
+                          %span.coment_die 5 min ago
+                          / <a href="#" class="responder_button">RESPONDER</a>
+                        .coment_tile_body
+                          Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
+              %li.greyComent
+                .coment_list_item
+                  .avatar{style: "background-image: url(\"CONTENT_IMG/homer-is-the-best-the-simpsons-17596403-500-313.jpg\") "}
+                  .coment_tile
+                    .coment_tile_head
+                      %span.name Raúl Aníbal
+                      %span.coment_die 5 min ago
+                      %a.responder_button{href: "#"} RESPONDER
+                    .coment_tile_body
+                      Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
+              %li
+                .coment_list_item
+                  .avatar{style: "background-image: url(\"CONTENT_IMG/homer-is-the-best-the-simpsons-17596403-500-313.jpg\") "}
+                  .coment_tile
+                    .coment_tile_head
+                      %span.name Raúl Aníbal
+                      %span.coment_die 5 min ago
+                      %a.responder_button{href: "#"} RESPONDER
+                    .coment_tile_body
+                      Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
+                %ul
+                  %li.sp1GR
+                    .coment_list_item
+                      .avatar{style: "background-image: url(\"CONTENT_IMG/homer-is-the-best-the-simpsons-17596403-500-313.jpg\") "}
+                      .coment_tile
+                        .coment_tile_head
+                          %span.name
+                            Raúl Aníbal
+                            %i - admin
+                          %span.coment_die 5 min ago
+                          / <a href="#" class="responder_button">RESPONDER</a>
+                        .coment_tile_body
+                          Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
+            .general_coments_form
+              .text_area_wrapp.clearfix
+                %h5
+                  ¿Quieres unirte a la conversación? Deja un comentario
+                  en el campo de abajo.
+                %form{action: ""}
+                  %textarea{placeholder: "Escribe un comentario..."}
+                  %input.button{type: "submit", value: "submit"}/
+        %footer.fixed_footer
+          %a.remove_fixed_footer_button{href: "#"}
+          %section.gren_block.infoBlock
+            .baner_wrapper
+              %img{alt: "", src: "http://flickholdr.com/200/50"}/
+        / CONTENT END
+    %aside#sidebarRight.sidebarRight
+      .scrollableArea
+        .userImgAvatar{style: "background-image: url(\"CONTENT_IMG/homer-is-the-best-the-simpsons-17596403-500-313.jpg\") "}
+        %h6.name
+          Luis Hernández
+        .button_block
+          %a.black_button{href: "#"} Mi perfil
+          %a.black_button{href: "#"} Mis favoritos
+        %a.greenButton.fB{href: "#"} Cerrar sesión
+    %script{src: "js/jQuery.js"}
+    %script{src: "js/jquery.offcanvas.min.js"}
+    %script{src: "js/overthrow.js"}
+    %script{src: "js/hammer.js"}
+    %script{src: "js/jquery.hammer.js"}
+    %script{src: "js/main.js"}
+    %script{src: "js/front-end.js"}
+    / WARNING!!!
+    / script only FOR DEMO
+    / TODO:remove this script before production
+    :javascript
+      jQuery(document).ready(function(){
+          jQuery('#sidebarLeft ul.paddedLight a').click(function(e){
+              jQuery("body").attr('class', '');
+              var colorclass = jQuery(this).attr('data-color-class');
+              jQuery("body").addClass(colorclass);
+              return false;
+          })
+      })
+    / WARNING!!!

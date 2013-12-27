@@ -1,0 +1,122 @@
+!!!
+%html.no-js
+  %head
+    %title MenuLoggedOut
+    %meta{charset: "UTF-8"}/
+    %meta{content: "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no", name: "viewport"}/
+    %link{href: "css/style.css", rel: "stylesheet"}/
+    %script{src: "js/modernizr.js"}
+  %body
+    .page_load
+      %p Welcome to SEP
+      .logo
+      .spiner_big
+    %aside#sidebarLeft.sidebarLeft
+      .scrollableArea
+        / Place whatever HTML you want in here
+        .sidebar_search_wrapper.clearfix
+          %form
+            %input.sidebar_search{type: "search"}/
+            %input{type: "submit", value: ""}/
+        %ul.paddedLight
+          %li.nonAf.sa-block
+            %a{href: "#"}
+              %span.icons.sa-icon>
+              Saludx
+            %a.heart_wrapp{href: "#"}
+              %i.heart
+          %li.ed-block
+            %a{href: "#"}
+              %span.icons.ed-icon>
+              Educaci?n
+            %a.heart_wrapp{href: "#"}
+              %i.heart
+          %li.tr-block
+            %a{href: "#"}
+              %span.icons.tr-icon>
+              Trabajo
+            %a.heart_wrapp{href: "#"}
+              %i.heart
+          %li.nonAf.fi-block
+            %a{href: "#"}
+              %span.icons.fi-icon>
+              Finanzas
+            %a.heart_wrapp{href: "#"}
+              %i.heart
+          %li.mi-block
+            %a{href: "#"}
+              %span.icons.mi-icon>
+              Migraci?n
+            %a.heart_wrapp{href: "#"}
+              %i.heart
+          %li.nonAf.ic-block
+            %a{href: "#"}
+              %span.icons.ic-icon>
+              Noticias
+            %a.heart_wrapp{href: "#"}
+              %i.heart
+        .text_block
+          %h6
+            C?mo navegar
+          %p
+            Elige la categor?a de tu inter?s en
+            el men? para ver noticias y contenidos
+            s?lo de esta categor?a.Si el coraz?n est? relleno, esta categor?a
+            est? marcada como favorita.
+          .center.heartWrapp
+            %i.heart_grey
+            %i.greyarrow
+            %i.heart_white
+    %section#page.page
+      .page_optc{style: "display: none"}
+      %header.topBar
+        %a#leftBurger.slideRight{href: ""}
+        %a.home_button{href: ""}
+        %a#rightBurger.slideLeft{href: ""}
+        %a.logo{href: "/"}
+      .scrollableArea
+        #content.form_page
+          .preform_content
+            %p
+              Aquí puedes hacer cambios a tu
+              cuenta o actualizar tu información.
+          .user_img
+            .user_avatar.clearfix{style: "background: url(\"http://placekitten.com/200/300\") "}
+            %input.button{type: "button", value: "Cambiar imagen de perfil"}/
+          %form#profil_form{action: ""}
+            %label
+              Primer Nombre
+              %input{placeholder: "Luis", type: "text"}/
+            %label
+              Apellido
+              %input{placeholder: "Hernández", type: "text"}/
+            %label
+              Dirección de correo electrónico
+              %input{placeholder: "luis.h494@gmail.com", type: "text"}/
+            %label
+              Nueva contraseña
+              %input{placeholder: "Nueva contraseña", type: "text"}/
+              %input{placeholder: "Confirma tu contraseña", type: "text"}/
+            %label
+              Código postal
+              %input{placeholder: "Código postal", type: "text"}/
+            %label
+              Teléfono celular
+              %input{placeholder: "Teléfono celular", type: "text"}/
+            %input.button{type: "submit", value: "Actualizar información"}/
+    %aside#sidebarRight.sidebarRight
+      .scrollableArea
+        .userImgAvatar{style: "background-image: url(\"CONTENT_IMG/homer-is-the-best-the-simpsons-17596403-500-313.jpg\") "}
+        %h6.name
+          Luis Hernández
+        .button_block
+          %a.black_button{href: "#"} Mi perfil
+          %a.black_button{href: "#"} Mis favoritos
+        %a.greenButton.fB{href: "#"} Cerrar sesión
+    %script{src: "js/jQuery.js"}
+    %script{src: "js/jquery.offcanvas.min.js"}
+    %script{src: "js/overthrow.js"}
+    %script{src: "js/hammer.js"}
+    %script{src: "js/jquery.hammer.js"}
+    %script{src: "js/main.js"}
+    %script{src: "js/front-end.js"}

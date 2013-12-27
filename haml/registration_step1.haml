@@ -1,0 +1,124 @@
+!!!
+%html.no-js
+  %head
+    %title MenuLoggedOut
+    %meta{charset: "UTF-8"}/
+    %meta{content: "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no", name: "viewport"}/
+    %link{href: "css/style.css", rel: "stylesheet"}/
+    %script{src: "js/modernizr.js"}
+  %body.green_page
+    / class .green_page make all background green and all font #fff
+    / use only for login and registration pages
+    .page_load
+      %p Welcome to SEP
+      .logo
+      .spiner_big
+    %aside#sidebarLeft.sidebarLeft
+      .scrollableArea
+        / Place whatever HTML you want in here
+        .sidebar_search_wrapper.clearfix
+          %form#search_form
+            %input.sidebar_search{type: "search"}/
+            %input{type: "submit", value: ""}/
+        %ul.paddedLight
+          %li.nonAf.sa-block
+            %a{href: "#"}
+              %span.icons.sa-icon>
+              Saludx
+            %a.heart_wrapp{href: "#"}
+              %i.heart
+          %li.ed-block
+            %a{href: "#"}
+              %span.icons.ed-icon>
+              Educación
+            %a.heart_wrapp{href: "#"}
+              %i.heart
+          %li.tr-block
+            %a{href: "#"}
+              %span.icons.tr-icon>
+              Trabajo
+            %a.heart_wrapp{href: "#"}
+              %i.heart
+          %li.nonAf.fi-block
+            %a{href: "#"}
+              %span.icons.fi-icon>
+              Finanzas
+            %a.heart_wrapp{href: "#"}
+              %i.heart
+          %li.mi-block
+            %a{href: "#"}
+              %span.icons.mi-icon>
+              Migración
+            %a.heart_wrapp{href: "#"}
+              %i.heart
+          %li.nonAf.ic-block
+            %a{href: "#"}
+              %span.icons.ic-icon>
+              Noticias
+            %a.heart_wrapp{href: "#"}
+              %i.heart
+        .text_block
+          %h6
+            Cómo navegar
+          %p
+            Elige la categoría de tu interés en
+            el menú para ver noticias y contenidos
+            sólo de esta categoría.Si el corazón está relleno, esta categoría
+            está marcada como favorita.
+          .center.heartWrapp
+            %i.heart_grey
+            %i.greyarrow
+            %i.heart_white
+    %section#page.page
+      .page_optc{style: "display: none"}
+      %header.topBar
+        %a#leftBurger.slideRight{href: ""}
+        %a.home_button{href: ""}
+        %a#rightBurger.slideLeft{href: ""}
+        %a.logo{href: "/"}
+      .scrollableArea
+        #content.form_page
+          .preform_content
+            %p
+              Aquí puedes hacer cambios a tu
+              %br>/
+              cuenta o actualizar tu información.
+          %form#new_user.new_user{"accept-charset" => "UTF-8", action: "", method: "post"}
+            %label
+              Your Name
+              %input#user_full_name{name: "user[full_name]", placeholder: "Your Name", type: "text"}/
+            %label
+              Zip Code
+              %input#user_postal_code{name: "user[postal_code]", placeholder: "Zip Code", type: "tel"}/
+            %label
+              Mobile Number
+              %input#user_phone_number{name: "user[phone_number]", placeholder: "Mobile Number", type: "tel"}/
+            .text-center
+              %input.button{name: "commit", type: "submit", value: "Siguiente"}/
+            .after_submit_content
+              %p
+                Si ya tienes una cuenta, desliza
+                %br>/
+                hacia la derecha para registrarte.
+              .text-center
+                %a.button{href: "#"} initiar la sesion
+            .steps.step-1
+              %span
+              %span
+              %span
+    %aside#sidebarRight.sidebarRight
+      .scrollableArea
+        .userImgAvatar{style: "background-image: url(\"CONTENT_IMG/homer-is-the-best-the-simpsons-17596403-500-313.jpg\") "}
+        %h6.name
+          Luis Hernández
+        .button_block
+          %a.black_button{href: "#"} Mi perfil
+          %a.black_button{href: "#"} Mis favoritos
+        %a.greenButton.fB{href: "#"} Cerrar sesión
+    %script{src: "js/jQuery.js"}
+    %script{src: "js/jquery.offcanvas.min.js"}
+    %script{src: "js/overthrow.js"}
+    %script{src: "js/hammer.js"}
+    %script{src: "js/jquery.hammer.js"}
+    %script{src: "js/main.js"}
+    %script{src: "js/front-end.js"}

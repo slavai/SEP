@@ -1,0 +1,73 @@
+!!!
+%html.no-js
+  %head
+    %title MenuLoggedOut
+    %meta{charset: "UTF-8"}/
+    %meta{content: "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no", name: "viewport"}/
+    %link{href: "css/style.css", rel: "stylesheet"}/
+    %script{src: "js/modernizr.js"}
+  %body
+    .page_load
+      %p Welcome to SEP
+      .logo
+      .spiner_big
+    %aside#sidebarLeft.sidebarLeft
+      .scrollableArea
+        / Place whatever HTML you want in here
+        .sidebar_search_wrapper.clearfix
+          %form
+            %input.sidebar_search{type: "search"}/
+            %input{type: "submit", value: ""}/
+        %a.grey_button{href: "#"} Iniciar sesión
+        %ul.paddedLight
+          %li
+            %a{href: "#"}
+              %span.icons.sa-icon>
+              Salud
+          %li
+            %a{href: "#"}
+              %span.icons.ed-icon>
+              Educación
+          %li
+            %a{href: "#"}
+              %span.icons.tr-icon>
+              Trabajo
+          %li
+            %a{href: "#"}
+              %span.icons.fi-icon>
+              Finanzas
+          %li
+            %a{href: "#"}
+              %span.icons.mi-icon>
+              Migración
+          %li
+            %a{href: "#"}
+              %span.icons.ic-icon>
+              Noticias
+    %section#page.page
+      .page_optc{style: "display: none"}
+      %header.topBar
+        %a#leftBurger.slideRight{href: ""}
+        %a#rightBurger.slideLeft{href: ""}
+        %a.logo{href: "/"}
+      .scrollableArea
+    %aside#sidebarRight.sidebarRight
+      .scrollableArea
+        .padded
+        .button_block
+          %a.black_button{href: "#"} Iniciar sesión
+          %a.black_button{href: "#"} Registrarse
+        .text_block
+          %h6
+            ¿Por qué registrarse?
+          %p
+            Al registrarte podrás tener acceso
+            a contenidos exclusivos, exámenes
+            y muchas otras cosas.
+    %script{src: "js/jQuery.js"}
+    %script{src: "js/jquery.offcanvas.min.js"}
+    %script{src: "js/overthrow.js"}
+    %script{src: "js/hammer.js"}
+    %script{src: "js/jquery.hammer.js"}
+    %script{src: "js/main.js"}
+    %script{src: "js/front-end.js"}
