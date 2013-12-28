@@ -79,20 +79,14 @@
       .scrollableArea
         #content.form_page
           .preform_content
-            %h3 Confirmación
-            %p
-              We have sent a text message to
-              %span.bold_text 555-555-5555
-            %p It may take up to 15 minutes to arrive.
-            %p
-              The code can only be used once and will expire so should be used as soon as it is received.
-              Check your mobile now.
-            %h4 Verify by typing the code below!
+            %h3 Password
           %form{"accept-charset" => "UTF-8", action: "", method: "post"}
             %label
-              %input{name: "", placeholder: "Your Code", type: "text"}/
-            %input.button{type: "submit", value: "Verificar"}/
-            .steps.step-2
+              %input{name: "", placeholder: "Contraseña", type: "password"}/
+            %label
+              %input{name: "", placeholder: "Confirma tu contraseña", type: "password"}/
+            %input.button{type: "submit", value: "Save"}/
+            .steps.step-3
               %span
               %span
               %span
