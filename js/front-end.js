@@ -81,4 +81,8 @@ jQuery(document).ready(function(){
             return false;
         }
     });
+
+    jQuery('.hearts_count').click(function(e){
+       jQuery(this).toggleClass('active');
+    });
 });

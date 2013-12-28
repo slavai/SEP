@@ -155,7 +155,7 @@ h6.name {
   #sidebarLeft .paddedLight .mi-block .heart {
     background-position: -46px -294px; }
   #sidebarLeft .paddedLight .ic-block .heart {
-    background-position: 0px -295px; }
+    background-position: 0px -294px; }
   #sidebarLeft .paddedLight a {
     padding: 20px 0 20px 59px;
     position: relative;
@@ -986,21 +986,33 @@ code {
 
 .Sa-page-cat .infoBlock, .Sa-page-cat .topBar, .Sa-page-cat .postsharing_block a, .Sa-page-cat .post_PV_block .post_PV_block_nav a {
   background-color: #f15c24; }
+.Sa-page-cat .hearts_count.active i.heart_grey {
+  background-position: 0px -272px; }
 
 .ed-page-cat .infoBlock, .ed-page-cat .topBar, .ed-page-cat .postsharing_block a, .ed-page-cat .post_PV_block .post_PV_block_nav a {
   background-color: #2e476f; }
+.ed-page-cat .hearts_count.active i.heart_grey {
+  background-position: -23px -272px; }
 
 .tr-page-cat .infoBlock, .tr-page-cat .topBar, .tr-page-cat .postsharing_block a, .tr-page-cat .post_PV_block .post_PV_block_nav a {
   background-color: #ebaf03; }
+.tr-page-cat .hearts_count.active i.heart_grey {
+  background-position: -46px -272px; }
 
 .fi-page-cat .infoBlock, .fi-page-cat .topBar, .fi-page-cat .postsharing_block a, .fi-page-cat .post_PV_block .post_PV_block_nav a {
   background-color: #29b183; }
+.fi-page-cat .hearts_count.active i.heart_grey {
+  background-position: -23px -294px; }
 
 .mi-page-cat .infoBlock, .mi-page-cat .topBar, .mi-page-cat .postsharing_block a, .mi-page-cat .post_PV_block .post_PV_block_nav a {
   background-color: #0099cb; }
+.mi-page-cat .hearts_count.active i.heart_grey {
+  background-position: -46px -294px; }
 
 .ic-page-cat .infoBlock, .ic-page-cat .topBar, .ic-page-cat .postsharing_block a, .ic-page-cat .post_PV_block .post_PV_block_nav a {
   background-color: #9a4e96; }
+.ic-page-cat .hearts_count.active i.heart_grey {
+  background-position: 0px -295px; }
 
 .cat_SH {
   margin-top: -2px;
