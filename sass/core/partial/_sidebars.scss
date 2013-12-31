@@ -77,6 +77,8 @@
 }
 .heartWrapp{
     padding: 0px 0 28px;
+    @include clearfix();
+    float: none!important;
 }
 
 .userImgAvatar{
@@ -98,6 +100,9 @@ h6.name{
 
 #sidebarLeft{
     .paddedLight{
+        li:first-child{
+            border-top: 1px solid #363636;
+        }
         padding: 0;
         margin-bottom: 35px;
         .sa-block .heart{background-position: 0px -272px}
@@ -153,6 +158,27 @@ h6.name{
         position: fixed;
         bottom: 0;
         right: 0;
+    }
+
+}
+#menu_info{
+    padding-top: 10px;
+    .heartWrapp{
+        padding-bottom: 0!important;
+    }
+}
+.lF_infoBlock{
+    color: #999999;
+    font-size: 11px;
+    line-height: 14px;
+    padding: 0 3%;
+    text-align: right;
+    margin: 15px 0!important;
+    width: 100%!important;
+    input{
+        display: inline-block;
+        margin: 0 15px;
+        vertical-align: middle;
     }
 
 }

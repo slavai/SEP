@@ -125,7 +125,16 @@
   line-height: 14px; }
 
 .heartWrapp {
-  padding: 0px 0 28px; }
+  padding: 0px 0 28px;
+  zoom: 1;
+  float: none !important; }
+  .heartWrapp:before, .heartWrapp:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+  .heartWrapp:after {
+    clear: both; }
 
 .userImgAvatar {
   width: 125px;
@@ -144,6 +153,8 @@ h6.name {
 #sidebarLeft .paddedLight {
   padding: 0;
   margin-bottom: 35px; }
+  #sidebarLeft .paddedLight li:first-child {
+    border-top: 1px solid #363636; }
   #sidebarLeft .paddedLight .sa-block .heart {
     background-position: 0px -272px; }
   #sidebarLeft .paddedLight .ed-block .heart {
@@ -211,6 +222,24 @@ h6.name {
     position: fixed;
     bottom: 0;
     right: 0; }
+
+#menu_info {
+  padding-top: 10px; }
+  #menu_info .heartWrapp {
+    padding-bottom: 0 !important; }
+
+.lF_infoBlock {
+  color: #999999;
+  font-size: 11px;
+  line-height: 14px;
+  padding: 0 3%;
+  text-align: right;
+  margin: 15px 0 !important;
+  width: 100% !important; }
+  .lF_infoBlock input {
+    display: inline-block;
+    margin: 0 15px;
+    vertical-align: middle; }
 
 @media only screen and (orientation: landscape) {
   /* portrait styles here */
@@ -710,6 +739,11 @@ code {
   line-height: 64px;
   text-decoration: none; }
 
+.infoButton {
+  width: 100% !important;
+  margin: 15px 0 !important;
+  margin-top: -15px; }
+
 .grey_button {
   background-color: #252525;
   color: #eeeeee;
@@ -1079,6 +1113,61 @@ footer .infoBlock {
   background: transparent;
   z-index: 199; }
 
+body.modalOpen {
+  height: 100% !important;
+  overflow: hidden !important;
+  width: 100% !important; }
+
+.overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 99999; }
+
+.modal {
+  background: #00a15f;
+  left: 5%;
+  padding: 15px 0;
+  position: fixed;
+  right: 5%;
+  top: 35%;
+  width: 90%;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  z-index: 999999; }
+  .modal p {
+    text-align: center;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 0;
+    color: #ffffff;
+    font-size: 16px; }
+  .modal h6 {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center; }
+  .modal div {
+    height: 45px;
+    text-align: center;
+    background: #00ad66;
+    font-size: 0;
+    border-top: 1px solid #097b4c;
+    border-radius: 0 0 8px 8px;
+    -webkit-border-radius: 0 0 8px 8px;
+    zoom: 1; }
+    .modal div:before, .modal div:after {
+      content: "\0020";
+      display: block;
+      height: 0;
+      overflow: hidden; }
+    .modal div:after {
+      clear: both; }
+
 .prefooter_content, .preform_content, .after_submit_content {
   padding: 20px 0; }
   .prefooter_content p, .preform_content p, .after_submit_content p {
@@ -1234,7 +1323,9 @@ footer .infoBlock {
     color: #000000;
     font-size: 10px;
     line-height: 14px;
-    margin: 0 10px 0 7px; }
+    margin: 0 10px 0 7px;
+    text-decoration: none;
+    cursor: pointer; }
     .post_deteils .date i, .post_deteils .coments i {
       margin-right: 2px; }
 

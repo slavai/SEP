@@ -267,3 +267,60 @@ footer{
     background: transparent;
     z-index:199 ;
 }
+
+//modals
+body.modalOpen{
+    height: 100%!important;
+    overflow: hidden!important;
+    width: 100%!important;
+}
+
+.overlay{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 99999;
+}
+
+.modal{
+    background: $mainGrean;
+    left: 5%;
+    padding: 15px 0;
+    position: fixed;
+    right: 5%;
+    top: 35%;
+    width: 90%;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    z-index: 999999;
+    p{
+        text-align: center;
+        font-weight: bold;
+        line-height: 20px;
+        margin: 0;
+        color: #ffffff;
+        font-size: 16px;
+    }
+    h6{
+        font-size: 20px;
+        color: #ffffff;
+        text-align: center;
+    }
+    div{
+        height: 45px;
+        text-align: center;
+        background: #00ad66;
+        font-size: 0;
+        border-top:1px solid #097b4c;
+        border-radius: 0 0 8px 8px;
+        -webkit-border-radius: 0 0 8px 8px;
+        @include clearfix();
+    }
+}
+
+//modalsend
