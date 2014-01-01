@@ -2,10 +2,10 @@
 %html.no-js
   %head
     %title MenuLoggedOut
-    %meta{charset UTF-8}
-    %meta{content width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, name viewport}
-    %link{href cssstyle.css, rel stylesheet}
-    %script{src jsmodernizr.js}
+    %meta{charset: "UTF-8"}/
+    %meta{content: "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no", name: "viewport"}/
+    %link{href: "css/style.css", rel: "stylesheet"}/
+    %script{src: "js/modernizr.js"}
   %body
     .page_load
       %p Welcome to SEP
@@ -13,206 +13,206 @@
       .spiner_big
     %aside#sidebarLeft.sidebarLeft
       .scrollableArea
-         Place whatever HTML you want in here
+        / Place whatever HTML you want in here
         .sidebar_search_wrapper.clearfix
           %form
-            %input.sidebar_search{type search}
-            %input{type submit, value }
+            %input.sidebar_search{type: "search"}/
+            %input{type: "submit", value: ""}/
         %ul.paddedLight
           %li.nonAf.sa-block
-            %a{href #}
-              %span.icons.sa-icon
+            %a{href: "#"}
+              %span.icons.sa-icon>
               Saludx
-            %a.heart_wrapp{href #}
+            %a.heart_wrapp{href: "#"}
               %i.heart
           %li.ed-block
-            %a{href #}
-              %span.icons.ed-icon
-              Educacion
-            %a.heart_wrapp{href #}
+            %a{href: "#"}
+              %span.icons.ed-icon>
+              Educación
+            %a.heart_wrapp{href: "#"}
               %i.heart
           %li.tr-block
-            %a{href #}
-              %span.icons.tr-icon
+            %a{href: "#"}
+              %span.icons.tr-icon>
               Trabajo
-            %a.heart_wrapp{href #}
+            %a.heart_wrapp{href: "#"}
               %i.heart
           %li.nonAf.fi-block
-            %a{href #}
-              %span.icons.fi-icon
+            %a{href: "#"}
+              %span.icons.fi-icon>
               Finanzas
-            %a.heart_wrapp{href #}
+            %a.heart_wrapp{href: "#"}
               %i.heart
           %li.mi-block
-            %a{href #}
-              %span.icons.mi-icon
-              Migracion
-            %a.heart_wrapp{href #}
+            %a{href: "#"}
+              %span.icons.mi-icon>
+              Migración
+            %a.heart_wrapp{href: "#"}
               %i.heart
           %li.nonAf.ic-block
-            %a{href #}
-              %span.icons.ic-icon
+            %a{href: "#"}
+              %span.icons.ic-icon>
               Noticias
-            %a.heart_wrapp{href #}
+            %a.heart_wrapp{href: "#"}
               %i.heart
         .text_block
           %h6
-            Como navegar
+            Cómo navegar
           %p
-            Elige la categoria de tu interes en
-            el menu para ver noticias y contenidos
-            solo de esta categoria.Si el corazon esta relleno, esta categoria
-            esta marcada como favorita.
+            Elige la categoría de tu interés en
+            el menú para ver noticias y contenidos
+            sólo de esta categoría.Si el corazón está relleno, esta categoría
+            está marcada como favorita.
           .center.heartWrapp
             %i.heart_grey
             %i.greyarrow
             %i.heart_white
     %section#page.page
-      .page_optc{style display none}
+      .page_optc{style: "display: none"}
       %header.topBar
-        %a#leftBurger.slideRight{href }
-        %a.home_button{href }
-        %a#rightBurger.slideLeft{href }
-        %a.logo{href }
+        %a#leftBurger.slideRight{href: ""}
+        %a.home_button{href: ""}
+        %a#rightBurger.slideLeft{href: ""}
+        %a.logo{href: "/"}
       .scrollableArea
-         CONTENT
+        / CONTENT
         #content
           %section.cat_it
             .cat_it_head
-              %img{alt , src httpflickholdr.com300300}
+              %img{alt: "", src: "http://flickholdr.com/300/300"}/
               .text_block
-                %h3 Cobertura minima por estado
+                %h3 Cobertura mínima por estado
                 %p
                   Consulte con su agente de seguros ya que cada Estado
                   requiere diferente cobertura para cumplir con la ley.
-                  Cada Estado estipula cual es la minima cobertura de
-                  �responsabilidad
+                  Cada Estado estipula cual es la mínima cobertura de
+                  “responsabilidad
             .cat_it_foot
-              %a.cat_name.finCOl{href #} Finanzas
+              %a.cat_name.finCOl{href: "#"} Finanzas
               .dateils
                 .date
-                  %i.clock-icon
-                  06212013
+                  %i.clock-icon>
+                  06/21/2013
                 .coments
-                  %i.buble-icon
+                  %i.buble-icon>
                   12 comments
           %section.cat_it
             .cat_it_head
-              %img{alt , src httpflickholdr.com300300}
+              %img{alt: "", src: "http://flickholdr.com/300/300"}/
               .text_block
-                %h3 Consejos para comer mas saludable
+                %h3 Consejos para comer más saludable
                 %p
                   agente de seguros Consulte con suya que cada Estado
                   requiere diferente cobertura para cumplir con la ley.
                   Cada Estado
-                  �responsabilidad
+                  “responsabilidad
             .cat_it_foot
-              %a.cat_name.salCol{href #} Salud
+              %a.cat_name.salCol{href: "#"} Salud
               .dateils
                 .date
-                  %i.clock-icon
-                  06212013
+                  %i.clock-icon>
+                  06/21/2013
                 .coments
-                  %i.buble-icon
+                  %i.buble-icon>
                   12 comments
           %section.gren_block.infoBlock
-            %h3 ?Quieres mas contenido
+            %h3 ¿Quieres más contenido?
             %p
-              Inicia sesion o crea una cuenta en Saber es Poder para acceder
-              a todos los contenidos, guardar tus favoritos y mucho mas.
+              Inicia sesión o crea una cuenta en Saber es Poder para acceder
+              a todos los contenidos, guardar tus favoritos y mucho más.
           %section.cat_it
             .cat_it_head
-              %img{alt , src httpflickholdr.com300300}
+              %img{alt: "", src: "http://flickholdr.com/300/300"}/
               .text_block
-                %h3 Cobertura minima por estado
+                %h3 Cobertura mínima por estado
                 %p
                   Consulte con su agente de seguros ya que cada Estado
                   requiere diferente cobertura para cumplir con la ley.
-                  Cada Estado estipula cual es la minima cobertura de
-                  �responsabilidad
+                  Cada Estado estipula cual es la mínima cobertura de
+                  “responsabilidad
             .cat_it_foot
-              %a.cat_name.eduCOl{href #} Educacion
+              %a.cat_name.eduCOl{href: "#"} Educación
               .dateils
                 .date
-                  %i.clock-icon
-                  06212013
+                  %i.clock-icon>
+                  06/21/2013
                 .coments
-                  %i.buble-icon
+                  %i.buble-icon>
                   12 comments
           %section.cat_it
             .cat_it_head
-              %img{alt , src httpflickholdr.com300300}
+              %img{alt: "", src: "http://flickholdr.com/300/300"}/
               .text_block
-                %h3 Consejos para comer mas saludable
+                %h3 Consejos para comer más saludable
                 %p
                   agente de seguros Consulte con suya que cada Estado
                   requiere diferente cobertura para cumplir con la ley.
                   Cada Estado
-                  �responsabilidad
+                  “responsabilidad
             .cat_it_foot
-              %a.cat_name.salCol{href #} Salud
+              %a.cat_name.salCol{href: "#"} Salud
               .dateils
                 .date
-                  %i.clock-icon
-                  06212013
+                  %i.clock-icon>
+                  06/21/2013
                 .coments
-                  %i.buble-icon
+                  %i.buble-icon>
                   12 comments
           %section.gren_block.infoBlock
             .baner_wrapper
-              %img{alt , src httpflickholdr.com20050}
+              %img{alt: "", src: "http://flickholdr.com/200/50"}/
           %section.cat_it
             .cat_it_head
-              %img{alt , src httpflickholdr.com300300}
+              %img{alt: "", src: "http://flickholdr.com/300/300"}/
               .text_block
-                %h3 Cobertura minima por estado
+                %h3 Cobertura mínima por estado
                 %p
                   Consulte con su agente de seguros ya que cada Estado
                   requiere diferente cobertura para cumplir con la ley.
-                  Cada Estado estipula cual es la minima cobertura de
-                  �responsabilidad
+                  Cada Estado estipula cual es la mínima cobertura de
+                  “responsabilidad
             .cat_it_foot
-              %a.cat_name.eduCOl{href #} Educacion
+              %a.cat_name.eduCOl{href: "#"} Educación
               .dateils
                 .date
-                  %i.clock-icon
-                  06212013
+                  %i.clock-icon>
+                  06/21/2013
                 .coments
-                  %i.buble-icon
+                  %i.buble-icon>
                   12 comments
           %section.cat_it
             .cat_it_head
-              %img{alt , src httpflickholdr.com300300}
+              %img{alt: "", src: "http://flickholdr.com/300/300"}/
               .text_block
-                %h3 Consejos para comer mas saludable
+                %h3 Consejos para comer más saludable
                 %p
                   agente de seguros Consulte con suya que cada Estado
                   requiere diferente cobertura para cumplir con la ley.
                   Cada Estado
-                  �responsabilidad
+                  “responsabilidad
             .cat_it_foot
-              %a.cat_name.salCol{href #} Salud
+              %a.cat_name.salCol{href: "#"} Salud
               .dateils
                 .date
-                  %i.clock-icon
-                  06212013
+                  %i.clock-icon>
+                  06/21/2013
                 .coments
-                  %i.buble-icon
+                  %i.buble-icon>
                   12 comments
-         CONTENT END
+        / CONTENT END
     %aside#sidebarRight.sidebarRight
       .scrollableArea
-        .userImgAvatar{style background-image url(CONTENT_IMGhomer-is-the-best-the-simpsons-17596403-500-313.jpg) }
+        .userImgAvatar{style: "background-image: url(\"CONTENT_IMG/homer-is-the-best-the-simpsons-17596403-500-313.jpg\") "}
         %h6.name
-          Luis Hernandez
+          Luis Hernández
         .button_block
-          %a.black_button{href #} Mi perfil
-          %a.black_button{href #} Mis favoritos
-        %a.greenButton.fB{href #} Cerrar sesion
-    %script{src jsjQuery.js}
-    %script{src jsjquery.offcanvas.min.js}
-    %script{src jsoverthrow.js}
-    %script{src jshammer.js}
-    %script{src jsjquery.hammer.js}
-    %script{src jsmain.js}
-    %script{src jsfront-end.js}
+          %a.black_button{href: "#"} Mi perfil
+          %a.black_button{href: "#"} Mis favoritos
+        %a.greenButton.fB{href: "#"} Cerrar sesión
+    %script{src: "js/jQuery.js"}
+    %script{src: "js/jquery.offcanvas.min.js"}
+    %script{src: "js/overthrow.js"}
+    %script{src: "js/hammer.js"}
+    %script{src: "js/jquery.hammer.js"}
+    %script{src: "js/main.js"}
+    %script{src: "js/front-end.js"}

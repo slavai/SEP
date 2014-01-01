@@ -6,7 +6,9 @@
     %meta{content: "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no", name: "viewport"}/
     %link{href: "css/style.css", rel: "stylesheet"}/
     %script{src: "js/modernizr.js"}
-  %body
+  %body.green_page
+    / class .green_page make all background green and all font #fff
+    / use only for login and registration pages
     .page_load
       %p Welcome to SEP
       .logo
@@ -15,7 +17,7 @@
       .scrollableArea
         / Place whatever HTML you want in here
         .sidebar_search_wrapper.clearfix
-          %form
+          %form#search_form
             %input.sidebar_search{type: "search"}/
             %input{type: "submit", value: ""}/
         %ul.paddedLight
@@ -75,6 +77,19 @@
         %a#rightBurger.slideLeft{href: ""}
         %a.logo{href: "/"}
       .scrollableArea
+        #content.form_page
+          .preform_content
+            %h3 Log In
+          %form{"accept-charset" => "UTF-8", action: "", method: "post"}
+            %label
+              %input{name: "", placeholder: "(310) 826 3900", type: "tel"}/
+            %label
+              %input{name: "", placeholder: "********", type: "password"}/
+            %input.button{type: "submit", value: "initiar la sesion"}/
+            %a.button.small_button{href: "#"} Registr
+            %a.button.small_button{href: "#"} Forgot password
+            .after_submit_content
+              %p Si no tienes una cuenta, desliza hacia la izquierda para registrarte
     %aside#sidebarRight.sidebarRight
       .scrollableArea
         .userImgAvatar{style: "background-image: url(\"CONTENT_IMG/homer-is-the-best-the-simpsons-17596403-500-313.jpg\") "}

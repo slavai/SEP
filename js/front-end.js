@@ -15,7 +15,7 @@ jQuery(document).ready(function(){
         jQuery('body').addClass('modalOpen').append('<div class="overlay"></div>');
         jQuery('.modal').show();
 
-        jQuery('.overlay').click(function(e){
+        jQuery('.overlay, .closeModalButton').click(function(e){
             colapsF();
             return false
         });
