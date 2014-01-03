@@ -155,17 +155,17 @@ h6.name {
   margin-bottom: 35px; }
   #sidebarLeft .paddedLight li:first-child {
     border-top: 1px solid #363636; }
-  #sidebarLeft .paddedLight .sa-block .heart {
+  #sidebarLeft .paddedLight .sal-block .heart {
     background-position: 0px -272px; }
-  #sidebarLeft .paddedLight .ed-block .heart {
+  #sidebarLeft .paddedLight .edu-block .heart {
     background-position: -23px -272px; }
-  #sidebarLeft .paddedLight .tr-block .heart {
+  #sidebarLeft .paddedLight .tra-block .heart {
     background-position: -46px -272px; }
-  #sidebarLeft .paddedLight .fi-block .heart {
+  #sidebarLeft .paddedLight .fin-block .heart {
     background-position: -23px -294px; }
-  #sidebarLeft .paddedLight .mi-block .heart {
+  #sidebarLeft .paddedLight .mig-block .heart {
     background-position: -46px -294px; }
-  #sidebarLeft .paddedLight .ic-block .heart {
+  #sidebarLeft .paddedLight .not-block .heart {
     background-position: 0px -294px; }
   #sidebarLeft .paddedLight a {
     padding: 20px 0 20px 59px;
@@ -179,34 +179,34 @@ h6.name {
       border-left: 1px solid #363636; }
     #sidebarLeft .paddedLight a .icons {
       position: absolute; }
-    #sidebarLeft .paddedLight a .sa-icon {
+    #sidebarLeft .paddedLight a .sal-icon {
       left: 15px; }
-    #sidebarLeft .paddedLight a .ed-icon {
+    #sidebarLeft .paddedLight a .edu-icon {
       left: 15px;
       top: 22px; }
-    #sidebarLeft .paddedLight a .tr-icon {
+    #sidebarLeft .paddedLight a .tra-icon {
       left: 17px;
       top: 23px; }
-    #sidebarLeft .paddedLight a .fi-icon {
+    #sidebarLeft .paddedLight a .fin-icon {
       left: 11px;
       top: 25px; }
-    #sidebarLeft .paddedLight a .mi-icon {
+    #sidebarLeft .paddedLight a .mig-icon {
       left: 17px;
       top: 23px; }
-    #sidebarLeft .paddedLight a .ic-icon {
+    #sidebarLeft .paddedLight a .not-icon {
       left: 16px;
       top: 24px; }
-  #sidebarLeft .paddedLight li.nonAf .sa-icon {
+  #sidebarLeft .paddedLight li.nonAf .sal-icon {
     background-position: 0 -163px; }
-  #sidebarLeft .paddedLight li.nonAf .ed-icon {
+  #sidebarLeft .paddedLight li.nonAf .edu-icon {
     background-position: -19px -162px; }
-  #sidebarLeft .paddedLight li.nonAf .tr-icon {
+  #sidebarLeft .paddedLight li.nonAf .tra-icon {
     background-position: -39px -163px; }
-  #sidebarLeft .paddedLight li.nonAf .fi-icon {
+  #sidebarLeft .paddedLight li.nonAf .fin-icon {
     background-position: -21px -211px; }
-  #sidebarLeft .paddedLight li.nonAf .mi-icon {
+  #sidebarLeft .paddedLight li.nonAf .mig-icon {
     background-position: -43px -190px; }
-  #sidebarLeft .paddedLight li.nonAf .ic-icon {
+  #sidebarLeft .paddedLight li.nonAf .not-icon {
     background-position: -2px -184px; }
   #sidebarLeft .paddedLight li.nonAf .heart {
     background-position: -46px -250px; }
@@ -972,22 +972,22 @@ code {
       .cat_it .cat_it_foot .cat-dateils .hearts_count {
         width: 17%; }
 
-.finCOl {
+.fin-COl {
   color: #29b183; }
 
-.salCol {
+.sal-Col {
   color: #f15c24; }
 
-.eduCOl {
+.edu-COl {
   color: #2e476f; }
 
-.Migcol {
+.mig-col {
   color: #0099cb; }
 
-.trcol {
+.tra-col {
   color: #ebaf03; }
 
-.iccol {
+.not-col {
   color: #9a4e96; }
 
 .infoBlock {
@@ -1018,34 +1018,34 @@ code {
       height: auto;
       display: inline-block; }
 
-.Sa-page-cat .infoBlock, .Sa-page-cat .topBar, .Sa-page-cat .postsharing_block a, .Sa-page-cat .post_PV_block .post_PV_block_nav a {
+.sal-page-cat .infoBlock, .sal-page-cat .topBar, .sal-page-cat .postsharing_block a, .sal-page-cat .post_PV_block .post_PV_block_nav a {
   background-color: #f15c24; }
-.Sa-page-cat .hearts_count.active i.heart_grey {
+.sal-page-cat .hearts_count.active i.heart_grey {
   background-position: 0px -272px; }
 
-.ed-page-cat .infoBlock, .ed-page-cat .topBar, .ed-page-cat .postsharing_block a, .ed-page-cat .post_PV_block .post_PV_block_nav a {
+.edu-page-cat .infoBlock, .edu-page-cat .topBar, .edu-page-cat .postsharing_block a, .edu-page-cat .post_PV_block .post_PV_block_nav a {
   background-color: #2e476f; }
-.ed-page-cat .hearts_count.active i.heart_grey {
+.edu-page-cat .hearts_count.active i.heart_grey {
   background-position: -23px -272px; }
 
-.tr-page-cat .infoBlock, .tr-page-cat .topBar, .tr-page-cat .postsharing_block a, .tr-page-cat .post_PV_block .post_PV_block_nav a {
+.tra-page-cat .infoBlock, .tra-page-cat .topBar, .tra-page-cat .postsharing_block a, .tra-page-cat .post_PV_block .post_PV_block_nav a {
   background-color: #ebaf03; }
-.tr-page-cat .hearts_count.active i.heart_grey {
+.tra-page-cat .hearts_count.active i.heart_grey {
   background-position: -46px -272px; }
 
-.fi-page-cat .infoBlock, .fi-page-cat .topBar, .fi-page-cat .postsharing_block a, .fi-page-cat .post_PV_block .post_PV_block_nav a {
+.fin-page-cat .infoBlock, .fin-page-cat .topBar, .fin-page-cat .postsharing_block a, .fin-page-cat .post_PV_block .post_PV_block_nav a {
   background-color: #29b183; }
-.fi-page-cat .hearts_count.active i.heart_grey {
+.fin-page-cat .hearts_count.active i.heart_grey {
   background-position: -23px -294px; }
 
-.mi-page-cat .infoBlock, .mi-page-cat .topBar, .mi-page-cat .postsharing_block a, .mi-page-cat .post_PV_block .post_PV_block_nav a {
+.mig-page-cat .infoBlock, .mig-page-cat .topBar, .mig-page-cat .postsharing_block a, .mig-page-cat .post_PV_block .post_PV_block_nav a {
   background-color: #0099cb; }
-.mi-page-cat .hearts_count.active i.heart_grey {
+.mig-page-cat .hearts_count.active i.heart_grey {
   background-position: -46px -294px; }
 
-.ic-page-cat .infoBlock, .ic-page-cat .topBar, .ic-page-cat .postsharing_block a, .ic-page-cat .post_PV_block .post_PV_block_nav a {
+.not-page-cat .infoBlock, .not-page-cat .topBar, .not-page-cat .postsharing_block a, .not-page-cat .post_PV_block .post_PV_block_nav a {
   background-color: #9a4e96; }
-.ic-page-cat .hearts_count.active i.heart_grey {
+.not-page-cat .hearts_count.active i.heart_grey {
   background-position: 0px -295px; }
 
 .cat_SH {
@@ -1067,8 +1067,7 @@ code {
     border-right: 1px solid #ffffff;
     text-align: center;
     vertical-align: middle;
-    line-height: 35px;
-    padding: 5px 0; }
+    padding: 15px 0; }
     .cat_SH a:last-child {
       border-right: none; }
 

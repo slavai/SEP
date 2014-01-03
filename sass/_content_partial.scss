@@ -109,22 +109,22 @@
         }
     }
 }
-.finCOl{
+.fin-COl{
     color: $finCOl;
 }
-.salCol{
+.sal-Col{
  color: $salCol;
 }
-.eduCOl{
+.edu-COl{
     color: $eduCOl;
 }
-.Migcol{
+.mig-col{
     color: $Migcol;
 }
-.trcol{
+.tra-col{
  color: $trcol;
 }
-.iccol{
+.not-col{
     color: $iccol;
 }
 
@@ -163,37 +163,37 @@
         }
     }
 }
-.Sa-page-cat{
+.sal-page-cat{
     .infoBlock, .topBar, .postsharing_block a, .post_PV_block .post_PV_block_nav a{
         background-color: $salCol;
     }
     .hearts_count.active{i.heart_grey{background-position: 0px -272px}}
 }
-.ed-page-cat{
+.edu-page-cat{
     .infoBlock, .topBar, .postsharing_block a, .post_PV_block .post_PV_block_nav a{
         background-color:$eduCOl;
     }
     .hearts_count.active{i.heart_grey{background-position: -23px -272px}}
 }
-.tr-page-cat{
+.tra-page-cat{
     .infoBlock, .topBar, .postsharing_block a, .post_PV_block .post_PV_block_nav a{
         background-color:$trcol;
     }
     .hearts_count.active{i.heart_grey{background-position: -46px -272px}}
 }
-.fi-page-cat{
+.fin-page-cat{
     .infoBlock, .topBar, .postsharing_block a, .post_PV_block .post_PV_block_nav a{
         background-color:$finCOl;
     }
     .hearts_count.active{i.heart_grey{background-position: -23px -294px}}
 }
-.mi-page-cat{
+.mig-page-cat{
     .infoBlock, .topBar, .postsharing_block a, .post_PV_block .post_PV_block_nav a{
         background-color:$Migcol;
     }
     .hearts_count.active{i.heart_grey{background-position: -46px -294px}}
 }
-.ic-page-cat{
+.not-page-cat{
     .infoBlock, .topBar, .postsharing_block a, .post_PV_block .post_PV_block_nav a{
         background-color:$iccol;
     }
@@ -212,8 +212,7 @@
         border-right: 1px solid #ffffff;
         text-align: center;
         vertical-align: middle;
-        line-height: 35px;
-        padding: 5px 0;
+        padding: 15px 0;
         &:last-child{
             border-right: none;
         }

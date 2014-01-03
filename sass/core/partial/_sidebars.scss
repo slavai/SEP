@@ -105,12 +105,12 @@ h6.name{
         }
         padding: 0;
         margin-bottom: 35px;
-        .sa-block .heart{background-position: 0px -272px}
-        .ed-block .heart{background-position: -23px -272px}
-        .tr-block .heart{background-position: -46px -272px}
-        .fi-block .heart{background-position: -23px -294px}
-        .mi-block .heart{background-position: -46px -294px}
-        .ic-block .heart{background-position: 0px -294px}
+        .sal-block .heart{background-position: 0px -272px}
+        .edu-block .heart{background-position: -23px -272px}
+        .tra-block .heart{background-position: -46px -272px}
+        .fin-block .heart{background-position: -23px -294px}
+        .mig-block .heart{background-position: -46px -294px}
+        .not-block .heart{background-position: 0px -294px}
         a{
             padding:20px 0 20px 59px ;
             position: relative;
@@ -125,21 +125,20 @@ h6.name{
             .icons{
                 position: absolute;
             }
-            .sa-icon{left: 15px;}
-            .ed-icon{left: 15px;top: 22px}
-            .tr-icon{left: 17px;top: 23px;}
-            .fi-icon{left: 11px;top: 25px;}
-            .mi-icon{left: 17px;top: 23px;}
-            .ic-icon{left: 16px;top: 24px;}
+            .sal-icon{left: 15px;}
+            .edu-icon{left: 15px;top: 22px}
+            .tra-icon{left: 17px;top: 23px;}
+            .fin-icon{left: 11px;top: 25px;}
+            .mig-icon{left: 17px;top: 23px;}
+            .not-icon{left: 16px;top: 24px;}
         }
         li.nonAf{
-            .sa-icon{background-position: 0 -163px}
-            .ed-icon{background-position: -19px -162px}
-            .tr-icon{background-position: -39px -163px}
-            .fi-icon{background-position: -21px -211px}
-            .mi-icon{background-position: -43px -190px}
-            .ic-icon{background-position: -2px -184px}
-
+            .sal-icon{background-position: 0 -163px}
+            .edu-icon{background-position: -19px -162px}
+            .tra-icon{background-position: -39px -163px}
+            .fin-icon{background-position: -21px -211px}
+            .mig-icon{background-position: -43px -190px}
+            .not-icon{background-position: -2px -184px}
             .heart{background-position: -46px -250px}
         }
 
